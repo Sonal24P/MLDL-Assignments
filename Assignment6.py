@@ -1,6 +1,6 @@
 import numpy
 import numpy as np
-
+#vander matrix
 def Vander_mat(mat,increasing=False):
     try:
         if type(mat)==list or type(mat)==numpy.ndarray:
